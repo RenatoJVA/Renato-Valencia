@@ -12,6 +12,6 @@ This project was built using these technologies.
 
 **📖 Multi-Page Layout**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**🎨 Styled with Tailwind-Flowbite and Sass**
 
 **📱 Fully Responsive**
