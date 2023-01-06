@@ -2,12 +2,11 @@
 
 This project was built using these technologies.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
+- Astro
+- Sass
+- JavaScript
+- Tailwind
 - VsCode
-- Vercel
 
 ## Features
 
