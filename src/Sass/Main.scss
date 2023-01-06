@@ -1,0 +1,14 @@
+@use "global.scss";
+
+//Base
+@use "Base/variables";
+@use "Base/base";
+@use "Base/typography";
+
+//Components
+@use "Components/nav";
+@use "Components/hero";
+@use "Components/about";
+@use "Components/portfolio";
+@use "Components/contact";
+@use "Components/footer";

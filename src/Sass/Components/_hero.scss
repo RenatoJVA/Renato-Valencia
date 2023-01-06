@@ -1,0 +1,25 @@
+@use '../global';
+
+.section__hero{
+        #hero-1{   
+            #hero__name{
+                font-size: global.$biggest-font-size;
+                font-weight: global.$font-semibold;
+                }
+            #hero__card{
+                font-size: global.$h2-font-size;
+                }
+        }
+    #hero-2{
+        margin: 0 0 2rem 0;
+        #hero__description-1{
+            font-size: global.$normal-font-size;
+            padding: 1rem 0 0.5rem 0;
+        }
+        #hero__description-2{
+            font-size: global.$normal-font-size;
+            padding: 1rem 0 0.5rem 0;           
+        }
+    }
+    
+}

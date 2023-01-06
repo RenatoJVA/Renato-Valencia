@@ -1,0 +1,28 @@
+---
+import Layout from '../layout/Layout.astro'
+import {projects} from '../stack/projects.json'
+---
+<Layout title="Portfolio">
+    <section class="py-8" id="projects">
+        <h2 class="text-center text-5xl m-5 mb-14">Portfolio</h2>
+        {
+            projects.map(projects =>(
+            <div class="grid grid-cols-10 mb-28">
+                <div class="col-start-2 col-end-10 text-center md:col-start-2 md:col-span-3 md:text-left">
+                    <h2 class="text-3xl mb-2 text-center md:text-left projects__title">{projects.title}</h2>
+                    <span class="text-sm font-medium">{projects.time}</span>
+                    <p class="text-left projects__description mt-2">{projects.description}</p>                    
+                    <p class="text-base leading-relaxed py-5">{projects.stack}</p>
+                    <a href={projects.url} target="_blank" class="mb-6 hover:underline font-medium">View <i class="uil uil-monitor"></i></a>
+                    
+                </div>
+                
+                <div class=" col-start-2 col-end-10 md:col-start-6 col-span-2">
+                    <img src={projects.image} class="w-80 m-auto pt-8 md:pt-0 img__portfolio" alt="">
+                </div>
+            </div>
+            
+            ))
+        }    
+    </section>
+</Layout>

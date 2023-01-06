@@ -1,0 +1,21 @@
+{
+    "projects":[
+        {
+            "title":"Product Design",
+            "time":"12/09/2022 - 02/11/2022",
+            "description":" The challenge was to design and create a complete experience, it should be fast, user friendly and scalable. First we made the UX process according to the way I usually work, through visual research and wireframes, we could move to the design system where we would end up with the product. It is still a young project that can be easily scalable.",
+            "image":"Img/Product Design.png",
+            "stack":"Figma | Marvel App | Google Forms | Illustrator",
+            "url":"https://www.figma.com/file/ezWAxQPNotd8t1NMbQczyO/Fran-UX%2FUI?node-id=0%3A1&t=qxGgzElTBsdXZT2r-1"
+        },
+
+        {
+            "title":"Personal Portfolio",
+            "time":"28/12/2022 - 05/01/2022",
+            "description":"The goal was to make a simple and elegant portfolio where my front-end skills can be reflected. The idea was to apply colors that do not damage the eye either dark mode or light mode, applying the law of 60-30-10, briefly detailing the projects and a brief summary of myself.",
+            "image":"Img/Renato-logo.png",
+            "stack":"HTML | Astro | Sass | Flowbite | Tailwind | Figma | Marvel App | Illustrator",            
+            "url":"/"
+        }
+    ]
+}

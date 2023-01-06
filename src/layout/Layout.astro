@@ -1,0 +1,30 @@
+---
+import Nav from '../components/Nav.astro'
+import Footer from '../components/Footer.astro'
+import '../Sass/Main.scss';
+
+interface Props {
+    title: string
+}
+const{title}=Astro.props
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Flowbite-->
+    <link rel="shortcut icon" href="Renato-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.css" />
+    <!--Unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Renato Valencia | {title} </title>
+</head>
+<body>
+    <Nav/>
+    <slot />
+    <Footer />
+</body>
+<script src="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.js"></script>
+</html>

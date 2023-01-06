@@ -1,0 +1,23 @@
+---
+import {portfolio} from '../../stack/portfolio.json'
+---
+<section class="section__portfolio" id="portfolio">
+    <h2 class="text-center text-5xl m-5">Portfolio</h2>
+    <div class="text-center m-5 mb-8 md:mb-14">
+        <a href="/portfolio" class="hover:underline text-2xl">All</a>
+    </div>
+    {
+        portfolio.map(portfolio =>(
+            <div class="grid grid-cols-10 mb-28">
+                <div class="col-start-2 col-end-10 text-center md:col-start-2 md:col-span-3  md:text-left">
+                    <h2 class="text-3xl mb-5 text-center md:text-left portfolio__title">{portfolio.title}</h2>
+                    <p class="mb-5 text-left portfolio__description">{portfolio.brief}</p>
+
+                </div>
+                <div class=" col-start-2 col-end-10 md:col-start-6 col-span-2">
+                    <img src={portfolio.image} class="w-80 m-auto pt-8 md:pt-0 img__portfolio" alt="">
+                </div>
+            </div>
+        ))
+    }
+</section>
